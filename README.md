@@ -185,7 +185,7 @@ Para evoluir o projeto, considere:
 
 ## 📄 Licença
 
-Este projeto é de uso livre para fins educacionais e comerciais.
+Este projeto é de uso livre para fins educacionais.
 
 ## 👨‍💻 Autor
 
