@@ -1,0 +1,34 @@
+{
+  "name": "travelgram",
+  "version": "1.0.0",
+  "description": "Uma plataforma moderna e responsiva para viajantes compartilharem suas experiências",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server --port=3000",
+    "build": "echo 'Build completed'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "travel",
+    "social-media",
+    "responsive",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Travelgram Team",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/travelgram.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seu-usuario/travelgram/issues"
+  },
+  "homepage": "https://github.com/seu-usuario/travelgram#readme"
+} 

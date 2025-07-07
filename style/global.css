@@ -14,7 +14,7 @@
     --text-color-secondary:#6C6C6C;
     --shape-transparency:rgba(255, 255, 255, 0.568);
 
-    --font-family: "Poppins", sans-serif;
+    --font-family: "Roboto", sans-serif;
     --text-lg:bold 32px/125% var(--font-family);
     --text:16px/1.5% var(--font-family);
     --text-md:14px/ 175% var(--font-family);
@@ -27,5 +27,55 @@ body {
     font: var(--text);
     color: var(--text-color-secondary);
     background-color: var(--background-color);
+    line-height: 1.6;
+}
 
+/* Reset de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Reset de listas */
+ul {
+    list-style: none;
+}
+
+/* Container principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Botões */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--brand-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d54a3a;
+    transform: translateY(-2px);
+}
+
+/* Cards */
+.card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
 }
